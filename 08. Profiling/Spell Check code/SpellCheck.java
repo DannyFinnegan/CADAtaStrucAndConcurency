@@ -22,9 +22,9 @@ public class SpellCheck {
            throws FileNotFoundException {
       // Read the dictionary and the document
 
-      Collection<String> dictionaryWords = readDictionary("08. Profiling/Spell Check code/words");
+      Collection<String> dictionaryWords = readDictionary("08. Profiling/Spell Check code/Words");
       //Set<String> documentWords = readWords("alice30.txt");
-      Set<String> documentWords = readWords("08. Profiling/Spell Check code/alice30.txt"); // file to be spell-checked
+      Set<String> documentWords = readWords("08. Profiling/Spell Check code/WordsForCA.txt"); // file to be spell-checked
 
       // Print all words that are in the document but not the dictionary
       int numberMisspeltWords = 0;
